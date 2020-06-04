@@ -1,0 +1,29 @@
+Script started on 2019-11-06 20:58:57-05:00
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part2[aalmusaw@compute part2]$ ./euler
+Hello! Enter your maximum error tolerance to estimate euler's number: 0.001
+
+The estimated value of e with 0.001000 error is: 
+2.718056
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part2[aalmusaw@compute part2]$ ./euler
+Hello! Enter your maximum error tolerance to estimate euler's number: 0.00001
+
+The estimated value of e with 0.000010 error is: 
+2.718279
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part2[aalmusaw@compute part2]$ ./euler
+Hello! Enter your maximum error tolerance to estimate euler's number: 0.1
+
+The estimated value of e with 0.100000 error is: 
+2.666667
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part2[aalmusaw@compute part2]$ ./euler
+Hello! Enter your maximum error tolerance to estimate euler's number: 1
+
+The estimated value of e with 1.000000 error is: 
+2.000000
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part2[aalmusaw@compute part2]$ exit
+exit
+
+Script done on 2019-11-06 20:59:34-05:00

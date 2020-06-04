@@ -1,0 +1,45 @@
+Script started on 2019-11-07 00:46:27-05:00
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part1[aalmusaw@compute part1]$ ./bstree
+
+Please select a non-negative integer for the tree size: 4
+
+To insert nodes to your tree, enter a triplet separated by white space.
+The triplet is of the form: string int int. For instance: ali 3 21.
+To terminate input, press Ctrl+D followed by new line. Receiving Input...: 
+Ali 112 42
+Zhang 121 32
+Foo 111 43
+Bar 999 32
+Input Terminated. Dispaying the contents of the tree in order...:
+
+[Key: (Ali 112), Data: 42]
+[Key: (Bar 999), Data: 32]
+[Key: (Foo 111), Data: 43]
+[Key: (Zhang 121), Data: 32]
+Clearing the tree...
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part1[aalmusaw@compute part1]$ ./bstree
+
+Please select a non-negative integer for the tree size: 2
+
+To insert nodes to your tree, enter a triplet separated by white space.
+The triplet is of the form: string int int. For instance: ali 3 21.
+To terminate input, press Ctrl+D followed by new line. Receiving Input...: 
+Vi 121 41
+Emacs 943 21
+Pico 842 32
+Invalid entry: The tree is full.
+Pico 232 21
+Invalid entry: The tree is full.
+jfkelfjwjfeif
+Invalid entry: The tree is full.
+Input Terminated. Dispaying the contents of the tree in order...:
+
+[Key: (Emacs 943), Data: 21]
+[Key: (Vi 121), Data: 41]
+Clearing the tree...
+Exiting...
+0;aalmusaw@compute:~/Courses/CS2211a/asn4/part1[aalmusaw@compute part1]$ exit
+exit
+
+Script done on 2019-11-07 00:48:17-05:00

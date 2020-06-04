@@ -1,0 +1,26 @@
+Script started on 2019-09-18 21:00:31-04:00
+0;aalmusaw@compute:~/Tmp/CS2211a[aalmusaw@compute CS2211a]$ find . -type d -print
+.
+./Asns
+./Asns/asn1
+./Asns/asn1/dir0
+./Asns/asn1/dir1
+./Labs
+./Labs/lab1
+0;aalmusaw@compute:~/Tmp/CS2211a[aalmusaw@compute CS2211a]$ find . -name "d*" ! -type d -print
+./Asns/asn1/dir0/df0
+./Asns/asn1/dir1/df1
+0;aalmusaw@compute:~/Tmp/CS2211a[aalmusaw@compute CS2211a]$ find . -atime -2 -print
+./Asns
+./Asns/asn1
+./Asns/asn1/Asn1Q4
+./Asns/asn1/dir0
+./Asns/asn1/dir0/df0
+./Asns/asn1/Asn1Q3.txt
+./Asns/asn1/dir1
+./Asns/asn1/dir1/df1
+./Asn1Q4.txt
+0;aalmusaw@compute:~/Tmp/CS2211a[aalmusaw@compute CS2211a]$ exit
+exit
+
+Script done on 2019-09-18 21:02:48-04:00
